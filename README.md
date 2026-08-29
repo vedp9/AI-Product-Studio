@@ -1,6 +1,6 @@
 # 🤖 AI Product Studio — 14 Projects
  
-> **14 production-ready AI systems**  
+> **Evaluated AI applications across document search, AI agents, natural-language database querying, developer tools, customer-support automation, and analytics.**  
 > Every project is deployed, documented, and explained from first principles.
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square)](https://python.org)
