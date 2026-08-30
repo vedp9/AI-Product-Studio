@@ -127,12 +127,3 @@ ClauseGuard is an AI tool for contract awareness,
 not a substitute for professional legal advice.
 Always consult a qualified lawyer before signing
 significant agreements.
-
----
-
-## 📅 Day 3 of 14 — AI Build in Public Challenge
-
-Follow the journey →
-[LinkedIn](https://www.linkedin.com/in/vedapraneeth/)
-
-> Day 3 of 14 — ClauseGuard AI
