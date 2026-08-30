@@ -116,9 +116,3 @@ streamlit run ui.py
 - Gemini 2.0 Flash handles tone shifts well —
   same content, different feel per variant
 
----
-
-## 📅 Day 4 of 14 — AI Build in Public Challenge
-
-Follow the journey →
-[LinkedIn](https://www.linkedin.com/in/vedapraneeth/)
