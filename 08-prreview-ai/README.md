@@ -132,10 +132,3 @@ streamlit run ui.py
   thing reviewers actually use
 - Always handle GitHub API errors explicitly —
   401, 403, 404 all need different messages
-
----
-
-## 📅 Day 8 of 14 — AI Build in Public Challenge
-
-Follow the journey →
-[LinkedIn](https://linkedin.com/in/vedapraneeth)
