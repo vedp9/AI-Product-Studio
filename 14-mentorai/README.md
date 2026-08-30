@@ -152,11 +152,3 @@ streamlit run ui.py
   a generic one — personalization
   is the product
 
----
-
-## 📅 Day 14 of 14 — AI Build in Public Challenge
-
-The capstone. 14 projects in 14 days.
-
-Follow the journey →
-[LinkedIn](https://linkedin.com/in/vedapraneeth)
