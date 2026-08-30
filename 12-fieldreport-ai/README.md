@@ -163,9 +163,3 @@ First run downloads the Whisper tiny model
   for voice data — speakers often omit
   fields that forms would require
 
----
-
-## 📅 Day 12 of 14 — AI Build in Public Challenge
-
-Follow the journey →
-[LinkedIn](https://linkedin.com/in/vedapraneeth)
