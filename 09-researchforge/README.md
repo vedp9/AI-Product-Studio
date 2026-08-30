@@ -152,9 +152,3 @@ streamlit run ui.py
 - Manual state machine > framework overhead
   for learning and for interviews
 
----
-
-## 📅 Day 9 of 14 — AI Build in Public Challenge
-
-Follow the journey →
-[LinkedIn](https://linkedin.com/in/vedapraneeth)
