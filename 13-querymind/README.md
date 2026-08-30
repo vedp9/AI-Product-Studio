@@ -200,9 +200,3 @@ Database seeds automatically on first run.
   and SQL-compatible enough for
   realistic query generation.
 
----
-
-## 📅 Day 13 of 14 — AI Build in Public Challenge
-
-Follow the journey →
-[LinkedIn](https://linkedin.com/in/vedapraneeth)
