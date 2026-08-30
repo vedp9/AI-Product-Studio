@@ -120,10 +120,3 @@ streamlit run ui.py
   feel like guesses. Answers with quotes feel like facts
 - ChromaDB's duplicate ID check prevents
   re-embedding the same document twice
-
----
-
-## 📅 Day 5 of 14 — AI Build in Public Challenge
-
-Follow the journey →
-[LinkedIn](https://linkedin.com/in/vedapraneeth)
