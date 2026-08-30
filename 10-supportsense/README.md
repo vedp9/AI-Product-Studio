@@ -131,9 +131,3 @@ streamlit run ui.py
   one model handle both answer
   and escalation responses cleanly
 
----
-
-## 📅 Day 10 of 14 — AI Build in Public Challenge
-
-Follow the journey →
-[LinkedIn](https://linkedin.com/in/vedapraneeth)
