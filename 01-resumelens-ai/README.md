@@ -98,10 +98,3 @@ streamlit run ui.py
 - Handling Gemini response edge cases (markdown fences, type mismatches)
 - Auto-retry logic for API flakiness
 
----
-
-## 📅 Built as part of my 14-Day AI Build-in-Public Challenge
-
-Follow the journey on [LinkedIn](https://www.linkedin.com/in/vedapraneeth/)
-
-> Day 1 of 14 — ResumeLens AI
