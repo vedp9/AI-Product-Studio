@@ -157,9 +157,3 @@ the full dashboard instantly.
   I used JobPulse on my own job search
   data while building it
 
----
-
-## 📅 Day 11 of 14 — AI Build in Public Challenge
-
-Follow the journey →
-[LinkedIn](https://linkedin.com/in/vedapraneeth)
