@@ -100,9 +100,3 @@ streamlit run ui.py
 - Sliding window pattern in audio chunking mirrors DSA concepts
 - Pydantic nested models (ActionItem inside MeetingBrief)
 - Handling real-world audio edge cases
-
----
-
-## 📅 Day 2 of 14 — AI Build in Public Challenge
-
-Follow the journey → [LinkedIn](https://www.linkedin.com/in/vedapraneeth/)
