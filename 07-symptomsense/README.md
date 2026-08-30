@@ -139,10 +139,3 @@ Always consult a qualified healthcare
 provider for medical decisions.
 In an emergency, call 112 (India) or
 911 (US) immediately.
-
----
-
-## 📅 Day 7 of 14 — AI Build in Public Challenge
-
-Follow the journey →
-[LinkedIn](https://linkedin.com/in/vedapraneeth)
