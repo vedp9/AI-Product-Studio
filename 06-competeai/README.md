@@ -124,10 +124,3 @@ streamlit run ui.py
   HTML noise, unlike raw Google scraping
 - Filtering noise before synthesis is critical
   — garbage in = garbage brief
-
----
-
-## 📅 Day 6 of 14 — AI Build in Public Challenge
-
-Follow the journey →
-[LinkedIn](https://linkedin.com/in/vedapraneeth)
