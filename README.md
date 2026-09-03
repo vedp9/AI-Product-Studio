@@ -1,39 +1,55 @@
-# 🤖 AI Product Studio — 14 Projects
- 
-> **Evaluated AI applications across document search, AI agents, natural-language database querying, developer tools, customer-support automation, and analytics.**  
-> Every project is deployed, documented, and explained from first principles.
+# AI Product Studio
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square)](https://python.org)
-[![Gemini](https://img.shields.io/badge/LLM-Gemini%202.0%20Flash-orange?style=flat-square)](https://ai.google.dev)
-[![Streamlit](https://img.shields.io/badge/UI-Streamlit-red?style=flat-square)](https://streamlit.io)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+A collection of 14 AI applications demonstrating practical work in RAG systems, agentic workflows, structured outputs, multimodal pipelines, and responsible AI.
 
----
+## Featured Projects
 
-## 🗂️ Project Index
+### SymptomSense AI
+Safety-first symptom triage assistant with deterministic red-flag detection, Gemini-based structured assessment, Pydantic validation, and medical-response safeguards.
 
-| # | Project | Techniques | Stack |
-|---|---------|------------|-------|
-| 01 | [ResumeLens AI](#01---resumelens-ai) | Prompt Engineering, Structured Output | Gemini, Pydantic, Streamlit |
-| 02 | [MeetingMind](#02---meetingmind) | Audio Pipeline, Whisper | faster-whisper, Gemini, Streamlit |
-| 03 | [ClauseGuard](#03---clauseguard) | RAG, PDF Parsing | ChromaDB, sentence-transformers, Gemini |
-| 04 | [PitchBot](#04---pitchbot) | Prompt Chaining, Web Scraping | Gemini, BeautifulSoup, Streamlit |
-| 05 | [BrainBase](#05---brainbase) | Multi-doc RAG, Citation | ChromaDB, PyMuPDF, python-docx |
-| 06 | [CompeteAI](#06---competeai) | ReAct Agent, Web Search | Tavily, Gemini, Streamlit |
-| 07 | [SymptomSense](#07---symptomsense) | Responsible AI, Safety Design | Gemini, Pydantic, Streamlit |
-| 08 | [PRReview AI](#08---prreview-ai) | GitHub API, Map-Reduce | PyGitHub, Gemini, Pydantic |
-| 09 | [ResearchForge](#09---researchforge) | Multi-Agent, State Machine | Tavily, Gemini, Pydantic |
-| 10 | [SupportSense](#10---supportsense) | RAG + Routing, Intent Classification | ChromaDB, Gemini, Streamlit |
-| 11 | [JobPulse](#11---jobpulse) | Data Analysis, LLM Insights | Pandas, Plotly, Gemini |
-| 12 | [FieldReport AI](#12---fieldreport-ai) | Voice Pipeline, Structured Extraction | faster-whisper, Gemini, Pydantic |
-| 13 | [QueryMind](#13---querymind) | NL-to-SQL, Self-Correction | SQLite, Gemini, Pydantic |
-| 14 | [MentorAI](#14---mentorai) | RAG, Personalized Curriculum | ChromaDB, Gemini, Streamlit |
+[View project →](./07-symptomsense)
+
+### ResearchForge
+Multi-agent research workflow that uses a state-machine design to search, synthesize, and structure research outputs.
+
+[View project →](./09-researchforge)
+
+### PRReview AI
+AI-assisted pull-request review tool that integrates with the GitHub API and uses map-reduce processing for scalable code analysis.
+
+[View project →](./08-prreview-ai)
+
+### QueryMind
+Natural-language-to-SQL assistant that generates, validates, and self-corrects database queries for safer data analysis.
+
+[View project →](./13-querymind)
 
 ---
 
-## 🛠️ Shared Tech Stack
+## Project Index
 
-All 14 projects share a single Python 3.12 virtual environment with these core packages:
+| # | Project | Key Capabilities | Tech Stack |
+|---|---------|------------------|------------|
+| 01 | [ResumeLens AI](./01-resumelens-ai) | Prompt Engineering, Structured Output | Gemini, Pydantic, Streamlit |
+| 02 | [MeetingMind](./02-meetingmind) | Audio Pipeline, Whisper | faster-whisper, Gemini, Streamlit |
+| 03 | [ClauseGuard](./03-clauseguard) | RAG, PDF Parsing | ChromaDB, sentence-transformers, Gemini |
+| 04 | [PitchBot](./04-pitchbot) | Prompt Chaining, Web Scraping | Gemini, BeautifulSoup, Streamlit |
+| 05 | [BrainBase](./05-brainbase) | Multi-doc RAG, Citation | ChromaDB, PyMuPDF, python-docx |
+| 06 | [CompeteAI](./06-competeai) | ReAct Agent, Web Search | Tavily, Gemini, Streamlit |
+| 07 | [SymptomSense](./07-symptomsense) | Responsible AI, Safety Design | Gemini, Pydantic, Streamlit |
+| 08 | [PRReview AI](./08-prreview-ai) | GitHub API, Map-Reduce | PyGitHub, Gemini, Pydantic |
+| 09 | [ResearchForge](./09-researchforge) | Multi-Agent, State Machine | Tavily, Gemini, Pydantic |
+| 10 | [SupportSense](./10-supportsense) | RAG + Routing, Intent Classification | ChromaDB, Gemini, Streamlit |
+| 11 | [JobPulse](./11-jobpulse) | Data Analysis, LLM Insights | Pandas, Plotly, Gemini |
+| 12 | [FieldReport AI](./12-fieldreport-ai) | Voice Pipeline, Structured Extraction | faster-whisper, Gemini, Pydantic |
+| 13 | [QueryMind](./13-querymind) | NL-to-SQL, Self-Correction | SQLite, Gemini, Pydantic |
+| 14 | [MentorAI](./14-mentorai) | RAG, Personalized Curriculum | ChromaDB, Gemini, Streamlit |
+
+---
+
+## Shared Tech Stack
+
+All projects share a single Python 3.12 virtual environment with these core packages:
 
 ```
 google-genai          # Gemini 2.0 Flash API
@@ -55,10 +71,10 @@ plotly                # Charts (Project 11)
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
-```
-ai-portfolio/
+```text
+AI-Product-Studio/
 ├── 01-resumelens-ai/
 ├── 02-meetingmind/
 ├── 03-clauseguard/
@@ -76,32 +92,21 @@ ai-portfolio/
 ├── 14-mentorai/
 └── README.md
 ```
-
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
-# Clone the repo
-git clone https://github.com/vedap24/AI-Portfolio
-cd AI-Portfolio
+git clone https://github.com/vedp9/AI-Product-Studio.git
+cd AI-Product-Studio
 
-# Create shared virtual environment
 python -m venv venv
-source venv/bin/activate  # Mac/Linux
-venv\Scripts\activate     # Windows
 
-# Install all dependencies
-pip install google-genai streamlit pydantic python-dotenv faster-whisper \
-            pymupdf sentence-transformers chromadb python-docx requests \
-            beautifulsoup4 tavily-python PyGithub pandas plotly
+# macOS/Linux
+source venv/bin/activate
 
-# Add your API key (required for all projects)
-echo "GEMINI_API_KEY=your_key_here" > .env
-
-# Run any project
-cd 01-resumelens-ai
-streamlit run ui.py
+# Windows PowerShell
+# venv\Scripts\Activate.ps1
 ```
 
 **Free API keys needed:**
@@ -157,7 +162,7 @@ cd 02-meetingmind && streamlit run ui.py
 
 **Stack:** `PyMuPDF · sentence-transformers · ChromaDB · Gemini 2.0 Flash · Pydantic · Streamlit`
 
-> ⚠️ Not legal advice. For educational demonstration only.
+> Not legal advice. For educational demonstration only.
 
 ```bash
 cd 03-clauseguard && streamlit run ui.py
@@ -382,7 +387,7 @@ cd 14-mentorai && streamlit run ui.py
 
 ---
 
-## 🧠 Key Patterns Across All 14 Projects
+## Key Patterns Across All 14 Projects
 
 **RAG (used in Projects 3, 5, 10, 14)**
 Embed documents → store in ChromaDB → embed query → retrieve top-k → send to LLM as context. The LLM answers only from retrieved content.
@@ -404,7 +409,7 @@ Keyword scan first (no API cost, catches obvious cases), LLM second (handles nua
 
 ---
 
-## 📊 Build-in-Public Stats
+## Build-in-Public Stats
 
 - **14 projects**
 - **6 projects** deployed on Streamlit Cloud
@@ -414,13 +419,13 @@ Keyword scan first (no API cost, catches obvious cases), LLM second (handles nua
 
 ---
 
-## 📄 License
+## License
 
 MIT License — use any code for learning, personal projects, or commercial work.
 
 ---
 
-## 🤝 Connect
+## Connect
 
 Building in public. Every project documented on LinkedIn with the architecture decisions, stats, and what I learned.
 
@@ -431,7 +436,7 @@ Building in public. Every project documented on LinkedIn with the architecture d
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 > Built with assistance from [Claude](https://claude.ai) (Anthropic) for code review, architecture feedback, and documentation.
 
