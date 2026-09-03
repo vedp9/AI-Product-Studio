@@ -118,8 +118,6 @@ source venv/bin/activate
 
 ## Project Details
 
----
-
 ### 01 — ResumeLens AI
 
 **What it does:** Scores a resume against a job description and returns structured fit analysis with gap identification.
@@ -431,7 +429,7 @@ Building in public. Every project documented on LinkedIn with the architecture d
 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-vedapraneeth-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/vedapraneeth)
-[![GitHub](https://img.shields.io/badge/GitHub-vedap24-black?style=flat-square&logo=github)](https://github.com/vedap24)
+[![GitHub](https://img.shields.io/badge/GitHub-vedap24-black?style=flat-square&logo=github)](https://github.com/vedp9)
 [![Email](https://img.shields.io/badge/Email-vedapraneeth9@gmail.com-red?style=flat-square)](mailto:vedapraneeth9@gmail.com)
 
 ---
