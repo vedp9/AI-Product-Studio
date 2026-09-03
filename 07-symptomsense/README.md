@@ -1,4 +1,4 @@
-# 🏥 SymptomSense AI
+# SymptomSense AI
 
 > Not a diagnosis tool. A triage tool.
 > One question answered: should you go to the ER,
@@ -13,7 +13,7 @@
 
 ---
 
-## 🎯 Real World Problem
+## Real World Problem
 
 > **JAMA Network Open, 2024** — up to 60% of all
 > ER visits are considered non-urgent and
@@ -36,7 +36,7 @@ what level of care do you need right now?
 
 ---
 
-## 🛡️ Safety Design
+## Safety Design
 
 This project is built around responsible AI
 design — not just capability.
@@ -61,22 +61,22 @@ for full documentation of every decision.
 
 ---
 
-## ✨ Features
+## ⚡ Features
 
-- 🚨 Always-visible emergency numbers
-- 🔍 Real-time red flag detection
+- Always-visible emergency numbers
+- Real-time red flag detection
   (before form submission)
-- 🏥 3 triage levels:
+- 3 triage levels:
   SEEK_EMERGENCY / SEE_DOCTOR / MONITOR_HOME
-- 📊 Urgency score 1–10 with color-coded bar
-- ⚠️ Red flags present + watch list
-- 📋 Immediate steps (medication-free)
-- 👨‍⚕️ What to tell your doctor
-- ⚠️ Mandatory disclaimer on every result
+- Urgency score 1–10 with color-coded bar
+- Red flags present + watch list
+- Immediate steps (medication-free)
+- What to tell your doctor
+- Mandatory disclaimer on every result
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart TD
@@ -101,7 +101,7 @@ flowchart TD
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Tool |
 |---|---|
@@ -113,7 +113,7 @@ flowchart TD
 
 ---
 
-## 🚀 Run Locally
+## Run Locally
 ```bash
 git clone https://github.com/vedap24/ai-portfolio
 cd 07-symptomsense
@@ -129,7 +129,7 @@ streamlit run ui.py
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 SymptomSense is an AI triage assistant for
 educational and demonstration purposes.
