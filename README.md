@@ -6,22 +6,18 @@ A collection of 14 AI applications demonstrating practical work in RAG systems, 
 
 ### SymptomSense AI
 Safety-first symptom triage assistant with deterministic red-flag detection, Gemini-based structured assessment, Pydantic validation, and medical-response safeguards.
-
 [View project →](./07-symptomsense)
 
 ### ResearchForge
 Multi-agent research workflow that uses a state-machine design to search, synthesize, and structure research outputs.
-
 [View project →](./09-researchforge)
 
 ### PRReview AI
 AI-assisted pull-request review tool that integrates with the GitHub API and uses map-reduce processing for scalable code analysis.
-
 [View project →](./08-prreview-ai)
 
 ### QueryMind
 Natural-language-to-SQL assistant that generates, validates, and self-corrects database queries for safer data analysis.
-
 [View project →](./13-querymind)
 
 ---
