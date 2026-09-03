@@ -42,6 +42,7 @@ That's what SupportSense solves.
 
 ## 🏗️ Architecture
 
+```mermaid
 Customer Query
 ↓
 Input Validation
@@ -63,7 +64,7 @@ Intent Classifier
 └─────────────────┴──────────────────────┘
 ↓
 Pydantic Validation → Streamlit UI
-
+```
 ---
 
 ## ✨ Features
