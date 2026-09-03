@@ -42,29 +42,34 @@ That's what SupportSense solves.
 
 ## 🏗️ Architecture
 
+SupportSense uses a **retrieval-first support workflow**: it validates the query, retrieves relevant knowledge-base context, classifies the request, and either responds safely or escalates it with agent-ready context.
+
 ```mermaid
-Customer Query
-↓
-Input Validation
-↓
-RAG Retrieval (ChromaDB + sentence-transformers)
-↓
-Intent Classifier
-→ Keyword pre-check (fast, deterministic)
-→ LLM classification (nuanced)
-↓
-┌─────────────────┬──────────────────────┐
-│   ANSWERABLE    │     ESCALATE         │
-│                 │                      │
-│ Generate answer │ Create ticket        │
-│ from KB only    │ with priority,       │
-│                 │ department,          │
-│ If LOW conf →   │ sentiment,           │
-│ re-escalate     │ context for agent    │
-└─────────────────┴──────────────────────┘
-↓
-Pydantic Validation → Streamlit UI
+flowchart TD
+    A([Customer Query]) --> B[Input Validation]
+    B --> C[RAG Retrieval<br/>ChromaDB + sentence-transformers]
+    C --> D[Intent Classification]
+
+    D --> E[Keyword Pre-check<br/><i>Fast and deterministic</i>]
+    E --> F[LLM Classification<br/><i>Nuanced intent understanding</i>]
+
+    F --> G{Can the request<br/>be answered safely?}
+
+    G -->|Yes| H[Generate grounded answer<br/>from knowledge base only]
+    G -->|No / Low confidence| I[Create escalation ticket<br/>with priority, department,<br/>sentiment, and agent context]
+
+    H --> J[Pydantic Output Validation]
+    I --> J
+
+    J --> K([Streamlit UI])
 ```
+
+### Decision logic
+
+- **Answerable:** SupportSense generates a response only from retrieved knowledge-base content.
+- **Escalate:** Billing, complaints, sensitive requests, unknown intents, or low-confidence responses are routed to a structured support ticket.
+- **Validation:** Pydantic checks the final answer or ticket data before it is displayed in the Streamlit interface.
+
 ---
 
 ## ✨ Features
