@@ -6,10 +6,11 @@ A collection of 14 AI applications demonstrating practical work in RAG systems, 
 
 ### SymptomSense AI
 Safety-first symptom triage assistant with deterministic red-flag detection, Gemini-based structured assessment, Pydantic validation, and medical-response safeguards.
-[View project →](./07-symptomsense)
+### [View project →](./07-symptomsense)
 
 ### ResearchForge
 Multi-agent research workflow that uses a state-machine design to search, synthesize, and structure research outputs.
+
 [View project →](./09-researchforge)
 
 ### PRReview AI
