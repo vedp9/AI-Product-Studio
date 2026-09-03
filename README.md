@@ -6,6 +6,7 @@ A collection of 14 AI applications demonstrating practical work in RAG systems, 
 
 ### SymptomSense AI
 Safety-first symptom triage assistant with deterministic red-flag detection, Gemini-based structured assessment, Pydantic validation, and medical-response safeguards.
+
 [View project →](./07-symptomsense)
 
 ### ResearchForge
