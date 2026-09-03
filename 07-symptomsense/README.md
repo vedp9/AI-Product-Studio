@@ -61,7 +61,7 @@ for full documentation of every decision.
 
 ---
 
-## ⚡ Features
+## Features
 
 - Always-visible emergency numbers
 - Real-time red flag detection
