@@ -230,8 +230,6 @@ prompt injection, or edge case can override:
 
 ---
 
-*This document was written as part of a
-14-day AI build-in-public challenge.
-SymptomSense is a demonstration of
+*SymptomSense is a demonstration of
 responsible AI design principles —
 it is not a production medical tool.*
