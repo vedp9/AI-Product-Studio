@@ -77,26 +77,26 @@ for full documentation of every decision.
 ---
 
 ## 🏗️ Architecture
-```
-Patient Input (symptoms, age, duration, severity)
-          ↓
-Layer 1: Pydantic Input Validation
-          ↓
-Layer 2: Red Flag Pre-Check (rule-based)
-   → If flags found: SEEK_EMERGENCY immediately
-          ↓
-Layer 3: Gemini 2.0 Flash (constrained prompt)
-          ↓
-Layer 4: API Failure Check
-   → If failed: SEE_DOCTOR fallback
-          ↓
-Layer 5: JSON Parse Check
-          ↓
-Layer 6: Medication Keyword Stripping
-          ↓
-Layer 7: Pydantic Output Validation
-          ↓
-Streamlit UI
+
+```mermaid
+flowchart TD
+    A([Patient Input<br/>Symptoms, age, duration, severity]) --> B[Layer 1: Pydantic Input Validation]
+    B --> C[Layer 2: Red-Flag Pre-check<br/>Rule-based and deterministic]
+
+    C --> D{Emergency red flag<br/>detected?}
+    D -->|Yes| E[SEEK_EMERGENCY<br/>Immediate escalation]
+    D -->|No| F[Layer 3: Gemini Assessment<br/>Constrained safety prompt]
+
+    F --> G{API response valid?}
+    G -->|No| H[SEE_DOCTOR<br/>Safe fallback]
+    G -->|Yes| I[Layer 5: JSON Parse Check]
+
+    I --> J[Layer 6: Medication Keyword Stripping]
+    J --> K[Layer 7: Pydantic Output Validation]
+    K --> L([Streamlit UI])
+
+    E --> L
+    H --> L
 ```
 
 ---
