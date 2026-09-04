@@ -5,7 +5,7 @@ A portfolio of practical AI products focused on agentic workflows, retrieval-aug
 ## Featured Projects
 
 | Project | Problem solved | Core AI pattern | Stack |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | [ResearchForge](./featured/researchforge/) | Turns a research question into a structured, source-aware brief. | Multi-agent planning, research, verification, and synthesis. | Python, Gemini, Tavily, Pydantic, Streamlit |
 | [PRReview AI](./featured/prreview-ai/) | Produces structured reviews for GitHub pull requests. | Per-file review with map-reduce synthesis and validation. | Python, Gemini, PyGitHub, Pydantic, Streamlit |
 | [QueryMind](./featured/querymind/) | Lets users query a SQLite database in plain English. | NL-to-SQL with guarded execution and error-driven self-correction. | Python, Gemini, SQLite, Pydantic, Streamlit |
