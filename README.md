@@ -42,9 +42,9 @@ A portfolio of practical AI products focused on agentic workflows, retrieval-aug
 | --- | --- |
 | [FieldReport AI](./labs/voice-and-document-ai/fieldreport-ai/) | Converts spoken field notes into domain-specific structured reports. |
 
-## Selected Standalone Work
+## Standalone Work
 
-These are AI related projects that remain independent repositories; their code is not duplicated here.
+These are AI related projects that remain independent repositories.
 
 | Project | Problem solved |
 | --- | --- |
