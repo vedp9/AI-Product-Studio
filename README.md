@@ -14,22 +14,27 @@ A portfolio of practical AI products focused on agentic workflows, retrieval-aug
 ## Labs
 
 ### Agents
-
-- [CompeteAI](./labs/agents/competeai/) plans competitive-intelligence searches, gathers web evidence, and synthesizes a structured brief.
+| Project | Problem solved |
+| --- | --- |
+| [CompeteAI](./labs/agents/competeai/) | Plans competitive-intelligence searches, gathers web evidence, and synthesizes a structured brief. |
 
 ### RAG Systems
 
-- [ClauseGuard](./labs/rag-systems/clauseguard/) retrieves contract clauses to support structured risk analysis.
-- [BrainBase](./labs/rag-systems/brainbase/) indexes multiple document formats for cited, grounded answers.
-- [SupportSense](./labs/rag-systems/supportsense/) combines knowledge-base retrieval with confidence-aware human escalation.
-- [MentorAI](./labs/rag-systems/mentorai/) retrieves curriculum material tailored to an individual learning profile.
+| Project | Problem solved |
+| --- | --- |
+| [ClauseGuard](./labs/rag-systems/clauseguard/) | Retrieves contract clauses to support structured risk analysis. |
+| [BrainBase](./labs/rag-systems/brainbase/) | Indexes multiple document formats for cited, grounded answers. |
+| [SupportSense](./labs/rag-systems/supportsense/) | Combines knowledge-base retrieval with confidence-aware human escalation. |
+| [MentorAI](./labs/rag-systems/mentorai/) | Retrieves curriculum material tailored to an individual learning profile. |
 
 ### LLM Applications
 
-- [ResumeLens AI](./labs/llm-applications/resumelens-ai/) produces schema-validated resume-to-job fit analysis.
-- [MeetingMind](./labs/llm-applications/meetingmind/) transforms local audio transcription into decisions, actions, and follow-ups.
-- [PitchBot](./labs/llm-applications/pitchbot/) uses a staged prompt chain to generate personalized outreach.
-- [JobPulse](./labs/llm-applications/jobpulse/) combines application-funnel analytics with LLM-generated career insights.
+| Project | Problem solved |
+| --- | --- |
+| [ResumeLens AI](./labs/llm-applications/resumelens-ai/) | Produces schema-validated resume-to-job fit analysis. |
+| [MeetingMind](./labs/llm-applications/meetingmind/) | Transforms local audio transcription into decisions, actions, and follow-ups. |
+| [PitchBot](./labs/llm-applications/pitchbot/) | Uses a staged prompt chain to generate personalized outreach. |
+| [JobPulse](./labs/llm-applications/jobpulse/) | Combines application-funnel analytics with LLM-generated career insights. |
 
 ### Voice & Document AI
 
