@@ -38,15 +38,19 @@ A portfolio of practical AI products focused on agentic workflows, retrieval-aug
 
 ### Voice & Document AI
 
-- [FieldReport AI](./labs/voice-and-document-ai/fieldreport-ai/) converts spoken field notes into domain-specific structured reports.
+| Project | Problem solved |
+| --- | --- |
+| [FieldReport AI](./labs/voice-and-document-ai/fieldreport-ai/) | Converts spoken field notes into domain-specific structured reports. |
 
 ## Selected Standalone Work
 
-These are related projects that remain independent repositories; their code is not duplicated here.
+These are AI related projects that remain independent repositories; their code is not duplicated here.
 
-- [Mentor Insight Extractor](https://github.com/vedp9/mentor-insight-extractor) — Bayesian triage agent for extracting actionable technical advice.
-- [Career Ops](https://github.com/vedp9/career-ops) — AI-powered job evaluation and resume-tailoring application.
-- [Skin App](https://github.com/vedp9/skin-app) — AI-enabled skincare guidance product.
+| Project | Problem solved |
+| --- | --- |
+| [Mentor Insight Extractor](https://github.com/vedp9/mentor-insight-extractor) | Bayesian triage agent for extracting actionable technical advice. |
+| [Career Ops](https://github.com/vedp9/career-ops) | AI-powered job evaluation and resume-tailoring application. |
+| [Skin App](https://github.com/vedp9/skin-app) | AI-enabled skincare guidance product. |
 
 ## Shared Assets
 
