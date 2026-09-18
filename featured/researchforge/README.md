@@ -69,7 +69,7 @@ applied to AI systems.
 ---
 
 ## 🏗️ Architecture
-```
+
 flowchart TB
     U(["👤 User Query"])
 
@@ -96,7 +96,7 @@ flowchart TB
     class P,R,F,W agent;
     class V validation;
     class UI output;
-```
+
 
 ---
 
