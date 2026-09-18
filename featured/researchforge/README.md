@@ -70,34 +70,35 @@ applied to AI systems.
 
 ## 🏗️ Architecture
 
+```mermaid
 flowchart TB
-    U(["👤 User Query"])
+    U(["User Query"])
 
-    P["🧠 Agent 1 — Planner<br/>Creates 4 focused sub-questions"]
-    R["🔍 Agent 2 — Researcher<br/>Searches the web with Tavily"]
-    F["🛡️ Agent 3 — Fact Checker<br/>Filters evidence, scores confidence,<br/>detects contradictions"]
-    W["✍️ Agent 4 — Writer<br/>Generates a structured research brief"]
-    V["✅ Pydantic Validation<br/>Validates the final output schema"]
-    UI(["🖥️ Streamlit UI<br/>Displays and exports the report"])
+    P["Agent 1: Planner<br/>Creates 4 focused sub-questions"]
+    R["Agent 2: Researcher<br/>Searches the web with Tavily"]
+    F["Agent 3: Fact Checker<br/>Filters evidence, scores confidence,<br/>detects contradictions"]
+    W["Agent 4: Writer<br/>Generates a structured research brief"]
+    V["Pydantic Validation<br/>Validates the final output schema"]
+    UI(["Streamlit UI<br/>Displays and exports the report"])
 
     U --> P
     P -->|"Research plan + sub-questions"| R
     R -->|"Raw search results"| F
     F -->|"Verified facts + gaps + confidence"| W
-    W -->|"Executive summary · findings · sections · conclusions"| V
+    W -->|"Executive summary, findings, sections, conclusions"| V
     V --> UI
 
-    classDef user fill:#2563eb,stroke:#1d4ed8,color:#ffffff,stroke-width:2px;
-    classDef agent fill:#111827,stroke:#6366f1,color:#ffffff,stroke-width:2px;
-    classDef validation fill:#065f46,stroke:#10b981,color:#ffffff,stroke-width:2px;
-    classDef output fill:#7c2d12,stroke:#f97316,color:#ffffff,stroke-width:2px;
+    classDef user fill:#2563eb,stroke:#1d4ed8,color:#ffffff,stroke-width:2px
+    classDef agent fill:#111827,stroke:#6366f1,color:#ffffff,stroke-width:2px
+    classDef validation fill:#065f46,stroke:#10b981,color:#ffffff,stroke-width:2px
+    classDef output fill:#7c2d12,stroke:#f97316,color:#ffffff,stroke-width:2px
 
-    class U user;
-    class P,R,F,W agent;
-    class V validation;
-    class UI output;
-
-
+    class U user
+    class P,R,F,W agent
+    class V validation
+    class UI output
+```
+ 
 ---
 
 ## 🛠️ Tech Stack
