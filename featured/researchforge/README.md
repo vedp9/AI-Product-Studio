@@ -13,7 +13,7 @@
 
 ---
 
-## 🎯 Real World Problem
+## Real World Problem
 
 > **Asana State of Work Innovation, 2025** —
 > 60% of work time is spent on "work about work."
@@ -33,7 +33,7 @@ or structured synthesis.
 
 ---
 
-## 🤖 The 4 Agents
+## The 4 Agents
 
 | Agent | Job | Why Separate |
 |---|---|---|
@@ -51,24 +51,24 @@ applied to AI systems.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🧠 Planner breaks query into
+- Planner breaks query into
   4 targeted sub-questions
-- 🔍 Researcher executes real-time web searches
-- 🔎 Fact Checker verifies and filters
+- Researcher executes real-time web searches
+- Fact Checker verifies and filters
   with confidence scoring
-- ✍️ Writer synthesizes into structured brief
-- 📋 Executive summary + key findings +
+- Writer synthesizes into structured brief
+- Executive summary + key findings +
   detailed sections
-- ⚠️ Knowledge gaps explicitly acknowledged
-- 💡 Follow-up questions for deeper research
-- 📥 Download report as Markdown
-- 🔄 Real-time agent status in UI
+- Knowledge gaps explicitly acknowledged
+- Follow-up questions for deeper research
+- Download report as Markdown
+- Real-time agent status in UI
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart TB
@@ -101,7 +101,7 @@ flowchart TB
  
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Tool |
 |---|---|
@@ -114,7 +114,7 @@ flowchart TB
 
 ---
 
-## 🚀 Run Locally
+## Run Locally
 ```bash
 git clone https://github.com/vedp9/AI-Product-Studio.git
 cd AI-Product-Studio/featured/researchforge
@@ -133,13 +133,13 @@ streamlit run ui.py
 
 ---
 
-## 📸 Demo
+## Demo
 
 ![Demo](demo.png)
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 - 4 focused agents beats 1 giant prompt
   every time — easier to debug,
